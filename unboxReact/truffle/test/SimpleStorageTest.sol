@@ -8,6 +8,7 @@ import "truffle/DeployedAddresses.sol";
 
 contract SimpleStorageTest {
 
+//Fonction testWriteValue  
   function testWriteValue() public {
     SimpleStorage simpleStorage = SimpleStorage(DeployedAddresses.SimpleStorage());
 
