@@ -8,6 +8,9 @@ import Desc from "./Desc";
 import NoticeNoArtifact from "./NoticeNoArtifact";
 import NoticeWrongNetwork from "./NoticeWrongNetwork";
 
+
+//parti titre 2 
+
 function Demo() {
   const { state } = useEth();
   const [value, setValue] = useState("?");
